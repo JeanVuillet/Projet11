@@ -1,0 +1,2 @@
+1 n y a t il aucun moyen de selectionner une ville ou valider un appartement?
+comment acceder aux images et icones de la maquette et au devmode
