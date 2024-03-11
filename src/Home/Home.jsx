@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { Children, useState } from 'react';
 import '../assets/imgHeader1.jpeg';
 import'../Sass/Home.scss';
 
 import { HomeHeader } from './HomeHeader';
-import { HomeBoddy } from './HomeBoddy';
+import { HomeMain } from './HomeMain';
 
 
 
@@ -14,8 +14,12 @@ import { HomeBoddy } from './HomeBoddy';
 function Home() {
 return(
     <>
+    <body className='body'>
 <HomeHeader/>
-<HomeBoddy/>
+<HomeMain>
+
+</HomeMain>
+</body>
 
 </>
 )

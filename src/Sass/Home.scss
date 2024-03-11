@@ -1,8 +1,20 @@
+.body{
+    margin-left:100px;
+    margin-right:100px;
+
+display:flex;
+flex-direction: column;
+    width:1240px; 
+    border:solid green;
 .pageHeader{
+   border:solid;
     position: relative;
     width: auto ;
-    height: 223px;;
-}
+    height: 223px;
+    width:1240px;
+
+
+
 
 .imgHeader1{
     top:5px;
@@ -37,4 +49,44 @@ justify-content: center;
 align-items: center;
 background-color: rgba(0, 0, 0, 0.5); 
 
+}
+}
+
+
+    
+    
+    
+.mainDiv{
+    width: 1240px;
+    border:solid;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+  grid-gap: 20px; /* Espacement entre les boîtes */
+  margin: 0; /* Supprimer la marge extérieure du conteneur */
+
+    background-color: #F6F6F6;
+    gap:2rem;
+  
+   
+  
+    .appart{
+        border:solid;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#FF6060;
+        width: 340px;
+        height: 340px;
+        .appartImg{
+            width: 90%;
+            height: 80%;
+            padding:1rem;
+   
+        }
+        .appartTitle{
+
+        }
+    
+    }
+}
 }
