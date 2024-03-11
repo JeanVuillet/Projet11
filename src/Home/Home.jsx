@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import '../assets/imgHeader1.jpeg';
+import'../Sass/Home.scss';
+
+import { HomeHeader } from './HomeHeader';
+
+
 
 
 
 function Home() {
 return(
-    <div>welcome</div>
+<HomeHeader></HomeHeader>
 )
 }
 

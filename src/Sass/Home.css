@@ -1,0 +1,36 @@
+.pageHeader {
+  position: relative;
+  width: auto;
+  height: 223px;
+}
+
+.imgHeader1 {
+  top: 5px;
+  position: absolute;
+  width: 1240px;
+  height: 223px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headerMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 68.45px;
+  color: white;
+  width: 1240px;
+  height: 223px;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Home.css.map */
