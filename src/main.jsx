@@ -6,6 +6,7 @@ import Home from './Home/Home.jsx'
 import Apropos from './Apropos.jsx';
 import Appartement from './Appartement.jsx';
 import MainHeader from './MainHeader.jsx';
+import { MainFooter } from './MainFooter.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
        
       </Routes>
+      <MainFooter/>
     </Router>
    
   </React.StrictMode>,

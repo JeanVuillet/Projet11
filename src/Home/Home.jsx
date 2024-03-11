@@ -3,6 +3,9 @@ import '../assets/imgHeader1.jpeg';
 import'../Sass/Home.scss';
 
 import { HomeHeader } from './HomeHeader';
+import { HomeBoddy } from './HomeBoddy';
+
+
 
 
 
@@ -10,7 +13,11 @@ import { HomeHeader } from './HomeHeader';
 
 function Home() {
 return(
-<HomeHeader></HomeHeader>
+    <>
+<HomeHeader/>
+<HomeBoddy/>
+
+</>
 )
 }
 
