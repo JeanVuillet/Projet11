@@ -57,15 +57,20 @@ background-color: rgba(0, 0, 0, 0.5);
     
     
 .mainDiv{
-    width: 1240px;
+    margin-top: 2rem;
+    padding:2rem;
+    justify-content: space-between;
+
     border:solid;
-    display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
-  grid-gap: 20px; /* Espacement entre les boîtes */
-  margin: 0; /* Supprimer la marge extérieure du conteneur */
+    display: flex;
+    gap:auto;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
+
 
     background-color: #F6F6F6;
-    gap:2rem;
+    
   
    
   
@@ -77,6 +82,7 @@ background-color: rgba(0, 0, 0, 0.5);
         background-color:#FF6060;
         width: 340px;
         height: 340px;
+        
         .appartImg{
             width: 90%;
             height: 80%;
