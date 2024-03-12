@@ -3,6 +3,7 @@ import AppartData from '../../logements.json';
 import { Deroulant } from '../../components/deroulant';
 import { Tag } from '../../components/tag';
 import'../../Sass/Appartement.scss'
+import { StarMaker } from '../../components/starMaker';
 
 let data=[];
 data=AppartData;
@@ -12,7 +13,7 @@ function Appartement(){
  let tags=appartement.tags.map((tag)=>(<Tag className='tagContent' content = {tag} key={tag} ></Tag>))
     return(
         <>
-        <main className='main'>
+        <div className='main'>
        <img className='appartImg' src={appartement.cover}></img>
 
         <div className='appartTitle'>{appartement.title}</div>
@@ -21,6 +22,10 @@ function Appartement(){
             <div className='proprioName'>{appartement.host.name}</div>
             <img className='imgProprio' src={appartement.host.picture}></img>
        
+        </div>
+        <div className='starDiv'>
+            star
+            <StarMaker number={appartement.rating}/>
         </div>
         <div className='tags'>{tags}</div>
         <div className='bottom'>
@@ -31,7 +36,7 @@ function Appartement(){
 
         </div>
 
-        </main>
+        </div>
         </>
     )
 }

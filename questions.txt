@@ -1,2 +1,29 @@
 1 n y a t il aucun moyen de selectionner une ville ou valider un appartement?
 comment acceder aux images et icones de la maquette et au devmode
+
+
+faire un fichier json avec les about
+repproduire le useEffect dans About
+
+Bem explications
+https://blog.lunatech.com/posts/2021-10-26-rendre-son-CSS-modulaire-avec-bem-et-sass
+Maria Lena Pietri
+12:46
+https://getbem.com/
+
+pour les etoiles faire un tableau
+
+prevoir l erreur ou l utilisateur met n importe quoi dans la barre de l appartement avec
+use navigate 
+Maria Lena Pietri
+12:50
+
+pas d erreur ou warning dans la console
+faire responsive mediaquery
+faire rotate 180 pour la fleche
+
+aulieu de Link utiliser NavLink lire doc https://reactrouter.com/en/main/components/nav-link
+
+enleverr les boddy etc
+
+https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-guide-46f51403f430

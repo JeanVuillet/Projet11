@@ -14,12 +14,11 @@ import { HomeMain } from './HomeMain';
 function Home() {
 return(
     <>
-    <body className='body'>
+    <div className='body'>
 <HomeHeader/>
-<HomeMain>
+<HomeMain/>
 
-</HomeMain>
-</body>
+</div>
 
 </>
 )
