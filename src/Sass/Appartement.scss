@@ -9,6 +9,7 @@
     right:-60rem;
 
     display: flex;
+    align-items: center;
 
 }
 .proprioName{
@@ -18,4 +19,14 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
+}
+
+.tags{
+    display: flex;
+    gap:15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tagContent{
+
 }

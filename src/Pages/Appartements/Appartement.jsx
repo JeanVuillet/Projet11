@@ -16,6 +16,7 @@ function Appartement(){
        <img className='appartImg' src={appartement.cover}></img>
 
         <div className='appartTitle'>{appartement.title}</div>
+        <div className='appartLocation'>{appartement.location}</div>
         <div className='proprioDiv'>
             <div className='proprioName'>{appartement.host.name}</div>
             <img className='imgProprio' src={appartement.host.picture}></img>
