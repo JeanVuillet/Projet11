@@ -1,6 +1,6 @@
 
-import AppartData from '../logements.json/'
-import '../Sass/Home.scss'
+import AppartData from '../../logements.json'
+import '../../Sass/Home.scss'
 import { Link } from 'react-router-dom';
 
 let Data=[];

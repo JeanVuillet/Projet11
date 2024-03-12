@@ -1,6 +1,6 @@
 import { Children, useState } from 'react';
-import '../assets/imgHeader1.jpeg';
-import'../Sass/Home.scss';
+import '../../assets/imgHeader1.jpeg';
+import'../../Sass/Home.scss';
 
 import { HomeHeader } from './HomeHeader';
 import { HomeMain } from './HomeMain';

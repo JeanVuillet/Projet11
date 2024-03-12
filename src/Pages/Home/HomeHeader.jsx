@@ -1,4 +1,4 @@
-import '../assets/imgHeader1.jpeg';
+import '../../assets/imgHeader1.jpeg';
 
 
  export function HomeHeader(){
