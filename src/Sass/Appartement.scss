@@ -1,4 +1,21 @@
+
+.appartTitle{
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+}
 .proprioDiv{
-    position:absolute;
-    
+    position:relative;
+    right:-60rem;
+
+    display: flex;
+
+}
+.proprioName{
+    color:#FF6060;
+}
+.imgProprio{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
 }

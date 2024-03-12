@@ -15,9 +15,9 @@ function Appartement(){
         <main className='main'>
        <img className='appartImg' src={appartement.cover}></img>
 
-        <div>{appartement.title}</div>
+        <div className='appartTitle'>{appartement.title}</div>
         <div className='proprioDiv'>
-            <div className='toto'>{appartement.host.name}</div>
+            <div className='proprioName'>{appartement.host.name}</div>
             <img className='imgProprio' src={appartement.host.picture}></img>
        
         </div>
