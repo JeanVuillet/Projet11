@@ -1,27 +1,39 @@
-import { Children, useState } from 'react';
-import '../../assets/imgHeader1.jpeg';
-import'../../Sass/Home.scss';
 
-import { HomeHeader } from './HomeHeader';
-import { HomeMain } from './HomeMain';
+import AppartData from '../../logements.json'
+import './Home.scss';
+import { Link } from 'react-router-dom';
 
+let Data=[];
+console.log(Data[1]);
+Data=AppartData;
+ function Home(){
 
+   let newData=Data.map((element)=>(
+    <div key={element.id} className='appart'>
+              <Link to={`/appartement/${element.id}`}>
+      
+        <img src={element.cover} className='appartImg'>
+        </img>
+        <div className='appartTitle'>{element.title}</div>
+        </Link>
+   </div>
+   ))
+    return(
+       
+       <div className='allPage'>
+       <div className='pageHeader'>
+    <img src='/src/assets/imgHeader1.jpeg' alt='image header' className='imgHeader1'></img>
+    <div className='headerMessage'>Chez vous, partout et ailleurs</div>
+       </div>
+       
+        <div className='mainDiv'>
+        {newData} 
+        </div>
 
-
-
-
-
-function Home() {
-return(
-    <>
-    <div className='body'>
-<HomeHeader/>
-<HomeMain/>
-
-</div>
-
-</>
-)
+        </div>
+      
+    )
 }
 
-export default Home
+export default Home;
+

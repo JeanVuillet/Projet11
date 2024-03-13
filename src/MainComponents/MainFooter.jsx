@@ -1,5 +1,5 @@
 
-import './Sass/MainFooter.scss';
+import './MainFooter.scss';
 
 export function MainFooter(){
 

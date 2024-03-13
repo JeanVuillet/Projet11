@@ -41,7 +41,9 @@ $red:#FF6060;
 .titleContent{
     padding-left: 15px;
 }
-.content{}
+.content{
+    flex-direction: column;
+}
 
 
 }

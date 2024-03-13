@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home.jsx'
 import Apropos from './Pages/Apropos/Apropos.jsx';
 import Appartement from './Pages/Appartements/Appartement.jsx';
-import MainHeader from './MainHeader.jsx';
-import { MainFooter } from './MainFooter.jsx';
+import MainHeader from './MainComponents/MainHeader.jsx';
+import { MainFooter } from './MainComponents/MainFooter.jsx';
 import { ErrorDiv } from './Pages/Error/ErrorDiv.jsx';
 
 

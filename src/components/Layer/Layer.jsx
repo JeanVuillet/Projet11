@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Sass/Deroulant.scss";
+import "./Layer.scss";
 
 export function Deroulant({ title, list, className }) {
   let [display, setDisplay] = useState("none");

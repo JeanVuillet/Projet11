@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import AppartData from '../../logements.json';
-import { Deroulant } from '../../components/deroulant';
-import { Tag } from '../../components/tag';
-import'../../Sass/Appartement.scss'
+import { Deroulant } from '../../components/Layer/Layer';
+import { Tag } from '../../components/Tag/tag';
+import'./Appartement.scss'
 import { StarMaker } from '../../components/starMaker';
 
 let data=[];
@@ -30,9 +30,8 @@ function Appartement(){
         <div className='tags'>{tags}</div>
         <div className='bottom'>
 
-           <Deroulant className='deroulant' title='Equipements' list={appartement.equipments}/>
            <Deroulant className='deroulant' title='Description' list={appartement.description}/>
-           
+           <Deroulant className='deroulant' title='Equipements' list={appartement.equipments}/>
 
         </div>
 
