@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import './Error.scss';
+import './error.scss'
 
-export function ErrorDiv(){
+export function ErrorComp(){
 
     return(
         <>
@@ -12,5 +12,4 @@ export function ErrorDiv(){
         </div>
         </>
     )
-
 }

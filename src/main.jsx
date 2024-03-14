@@ -7,7 +7,7 @@ import Apropos from './Pages/Apropos/Apropos.jsx';
 import Appartement from './Pages/Appartements/Appartement.jsx';
 import MainHeader from './MainComponents/MainHeader.jsx';
 import { MainFooter } from './MainComponents/MainFooter.jsx';
-import { ErrorDiv } from './Pages/Error/ErrorDiv.jsx';
+import { Error } from './Pages/Error/Error.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Home/>}/>
         <Route path='/APropos' element={<Apropos></Apropos>}/>
         <Route path='/Appartement/:id' element={<Appartement/>}/>
-        <Route path='*' element={<ErrorDiv/>}/>
+        <Route path='*' element={<Error/>}/>
        
 
        
