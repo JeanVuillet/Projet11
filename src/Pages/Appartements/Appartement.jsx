@@ -4,6 +4,7 @@ import { Layer } from "../../components/Layer/Layer";
 import { Tag } from "../../components/Tag/tag";
 import "./Appartement.scss";
 import { StarMaker } from "../../components/starMaker";
+import { Caroussel } from "../../components/caroussel/caroussel.jsx";
 
 let data = [];
 data = AppartData;
@@ -16,7 +17,7 @@ function Appartement() {
   return (
     <>
       <div className="main">
-        <img className="appartImg" src={appartement.cover}></img>
+      <Caroussel appartement={appartement}/>
 
         <div className="appartTitle">{appartement.title}</div>
         <div className="appartLocation">{appartement.location}</div>
