@@ -1,4 +1,6 @@
-header{
+
+
+.header{
     display: flex;
     justify-content: space-between;
     width:1240px;   
@@ -6,15 +8,26 @@ header{
     padding-left:100px;
     padding-right:100px;
     margin-top:45px;
-    margin-bottom:45px;
-}
+    margin-bottom:45px;}
+
 
 .logo{
 
 }
 
-.navMenu{
-display: flex;
-gap:57px;
+.navMenu {
+    display: flex;
+    gap: 57px;
 
+    .navLink {
+     
+    
+        &.active {
+           
+            font-weight: bold;
+        
+        }
+    
+    }
+   
 }
