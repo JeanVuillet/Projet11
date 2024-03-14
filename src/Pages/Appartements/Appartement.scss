@@ -1,4 +1,13 @@
 
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid;
+    width: 1240px;
+    .appartImg {
+      width: 1240px;
+      height: 415px;
+    }
 .appartTitle{
     font-size: 36px;
     font-weight: 500;
@@ -29,4 +38,17 @@
 }
 .tagContent{
 
+}
+.bottom {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: solid orange;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+
+  }
 }

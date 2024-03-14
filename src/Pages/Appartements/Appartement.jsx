@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import AppartData from "../../logements.json";
+import AppartData from "../../data/logements.json";
 import { Layer } from "../../components/Layer/Layer";
 import { Tag } from "../../components/Tag/tag";
 import "./Appartement.scss";
@@ -25,7 +25,7 @@ function Appartement() {
           <img className="imgProprio" src={appartement.host.picture}></img>
         </div>
         <div className="starDiv">
-          star
+        
           <StarMaker number={appartement.rating} />
         </div>
         <div className="tags">{tags}</div>

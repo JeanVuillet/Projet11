@@ -27,7 +27,7 @@ export function Layer({ title, list, className }) {
       <div onClick={DisplaySeter} className="title">
         <div className="titleContent">{title}</div>
         <svg
-
+      className="arrow"
       width="24"
       height="14"
       viewBox="0 0 24 14"

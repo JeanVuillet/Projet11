@@ -1,5 +1,5 @@
 
-import AppartData from '../../logements.json'
+import AppartData from '../../data/logements.json'
 import './Home.scss';
 import { NavLink } from 'react-router-dom';
 
