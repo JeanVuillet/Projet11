@@ -5,15 +5,14 @@
  import"../../components/Layer/Layer.scss"
 
  import data from "../../data/Apropos.json";
+ import { Banner } from '../../components/banner/banner';
  
 
  function Apropos(){
 
     return(
         <>
-        <div className="aProposDiv">
-            <img   src='/src/assets/imgHeader2.jpeg'  className="aProposDiv__img"/>
-        </div>
+    <Banner number={2} visible={'none'}></Banner>
         <div className='aProposDiv__layers'>
       <Layer title={'Fiabilité'} list={data.Fiabilité} className={'fiabilité'}></Layer>
       <Layer title={'Respect'} list={data.Fiabilité} className={'respect'}></Layer>

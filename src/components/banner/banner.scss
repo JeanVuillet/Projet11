@@ -1,0 +1,52 @@
+.pageHeader{
+    border:solid;
+     position: relative;
+     width: auto ;
+     height: 223px;
+     width:1240px;
+    
+ 
+ 
+ 
+ 
+ .imgHeader1{
+     top:5px;
+     position:absolute;
+ 
+     width: 1240px;
+     height: 223px;
+     object-fit: cover;
+     opacity: 60%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ 
+ 
+ }
+ .imgHeader2{
+    width: 1240px;
+    height: 223px;
+    object-fit: cover;
+    opacity: 60%;
+ }
+ .headerMessage{
+     position:absolute;
+ 
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 48px;
+     font-weight: bold;
+     line-height: 68.45px;
+     color:white;
+ 
+     width: 1240px;
+     height: 223px;
+ text-wrap: nowrap;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.5); 
+ 
+ }
+ }
