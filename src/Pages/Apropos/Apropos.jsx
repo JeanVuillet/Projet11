@@ -11,7 +11,7 @@
  function Apropos(){
 
     return(
-        <>
+        <div className='allPage'>
     <Banner number={2} visible={'none'}></Banner>
         <div className='aProposDiv__layers'>
       <Layer title={'Fiabilité'} list={data.Fiabilité} className={'fiabilité'}></Layer>
@@ -19,7 +19,7 @@
       <Layer title={'Service'} list={data.Fiabilité} className={'service'}></Layer>
       <Layer title={'Sécurité'} list={data.Fiabilité} className={'securite'}></Layer>
         </div>
-        </>
+        </div>
     )
  }
 
