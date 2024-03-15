@@ -25,11 +25,15 @@ function Appartement() {
           <div className="proprioName">{appartement.host.name}</div>
           <img className="imgProprio" src={appartement.host.picture}></img>
         </div>
+
+        <div className="starTag">
+  
+        <div className="tags">{tags}</div>
         <div className="starDiv">
         
-          <StarMaker number={appartement.rating} />
+        <StarMaker number={appartement.rating} />
+      </div>
         </div>
-        <div className="tags">{tags}</div>
         <div className="bottom">
           <Layer
             className="Layer"

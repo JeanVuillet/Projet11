@@ -14,13 +14,17 @@
     color: #FF6060;
 }
 .proprioDiv{
-    position:relative;
-    right:-60rem;
-
+    width: 167px;
+    height: 64px;
+    position: absolute;
+    top: 587px;
+    left: 1170px;
     display: flex;
     align-items: center;
+  
 
 }
+
 .proprioName{
     color:#FF6060;
 }
@@ -29,7 +33,10 @@
     height: 64px;
     border-radius: 50%;
 }
-
+.starTag{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
 .tags{
     display: flex;
     gap:15px;
@@ -38,6 +45,14 @@
 }
 .tagContent{
 
+}
+.starDiv{
+ 
+    top:687px;
+    left: 1144px;
+width: 196px;
+height: 36px;
+}
 }
 .bottom {
     margin-top: 2rem;
