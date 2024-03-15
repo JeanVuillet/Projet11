@@ -1,0 +1,24 @@
+.carousselDiv{
+
+    display: flex;
+    position: relative;
+
+.leftArrow{
+    position: absolute;
+    z-index: 1;
+    width: 5rem;
+    height: 5rem;
+    left:2rem;
+   top:50%;
+   transform: translateY(-50%);
+}
+.rightArrow{
+    position: absolute;
+    z-index: 1;
+    width: 5rem;
+    height: 5rem;
+    right:2rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+}
