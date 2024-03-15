@@ -30,7 +30,7 @@ return(
         fill="white"
       />
     </svg>
-    <img src={appartement.pictures[position]}></img>
+    <img src={appartement.pictures[position]} className="appartImg"></img>
     <svg
     onClick={goForward}
       className="rightArrow"

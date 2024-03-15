@@ -1,10 +1,14 @@
 .tagContent{
 background-color:#FF6060;
 color:white;
-width:115px;
+min-width:115px;
+width: auto;
 height:25px;
-padding-left: 15px;
+
 display:flex;
 justify-content:center;
 align-items:center;
+border-radius:10px;
+padding-left: 15px;
+padding-right: 15px;
 }

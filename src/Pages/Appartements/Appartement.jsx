@@ -16,35 +16,33 @@ function Appartement() {
   ));
   return (
     <>
-      <div className="main">
-      <Caroussel appartement={appartement}/>
-
-        <div className="appartTitle">{appartement.title}</div>
-        <div className="appartLocation">{appartement.location}</div>
-        <div className="proprioDiv">
-          <div className="proprioName">{appartement.host.name}</div>
-          <img className="imgProprio" src={appartement.host.picture}></img>
-        </div>
-
-        <div className="starTag">
-  
-        <div className="tags">{tags}</div>
-        <div className="starDiv">
-        
-        <StarMaker number={appartement.rating} />
-      </div>
-        </div>
-        <div className="bottom">
-          <Layer
-            className="Layer"
-            title="Description"
-            list={appartement.description}
-          />
-          <Layer
-            className="Layer"
-            title="Equipements"
-            list={appartement.equipments}
-          />
+      <div className="contain">
+        <Caroussel appartement={appartement} />
+        <div className="info">
+          <div className="appartTitle">{appartement.title}</div>
+          <div className="appartLocation">{appartement.location}</div>
+          <div className="proprioDiv">
+            <div className="proprioName">{appartement.host.name}</div>
+            <img className="imgProprio" src={appartement.host.picture}></img>
+          </div>
+          <div className="starTag">
+            <div className="tagContainer">{tags}</div>
+            <div className="starDiv">
+              <StarMaker number={appartement.rating} />
+            </div>
+          </div>
+          <div className="bottom">
+            <Layer
+              className="Layer"
+              title="Description"
+              list={appartement.description}
+            />
+            <Layer
+              className="Layer"
+              title="Equipements"
+              list={appartement.equipments}
+            />
+          </div>
         </div>
       </div>
     </>
