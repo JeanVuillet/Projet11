@@ -1,7 +1,9 @@
 $red: #ff6060;
 .layerDiv{
     display: flex;
+    flex-direction: column;
    justify-content: center;
+   align-items: center;
 .upArrow{
     padding-right: 2rem;
     transform: rotate(180deg) 1s;
@@ -39,5 +41,11 @@ margin-right: 2rem;
   }
   .content {
     flex-direction: column;
+    width: 582px;
+    padding-inline:0;
+    padding-inline-end: 0;
+    background-color: rgba(246, 246, 246, 0.45);
+    margin-block: 0;
+    padding-block: 1em;
   }
 }
