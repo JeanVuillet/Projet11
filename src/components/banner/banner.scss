@@ -50,3 +50,36 @@
  
  }
  }
+ @media screen and (max-width: 375px) {
+    .pageHeader{
+        border:solid;
+        position: relative;
+        width: auto ;
+        height: 111px;
+        width:335px;
+    
+     
+ .imgHeader1{
+    top:5px;
+    position:absolute;
+
+    width: 335px;
+    height: 111px;
+    object-fit: cover;
+    opacity: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+ .headerMessage{
+    max-width: 335px;
+    height: 111px;
+    font-size: 24px;
+    margin: 0;
+
+}
+
+}
+ }
+

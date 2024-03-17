@@ -58,3 +58,19 @@ flex-direction: column;
     }
 }
 }
+@media screen and (max-width: 375px) {
+
+    .allPage{
+        width: 335px;
+        margin-left: 20px;
+        margin-right: 20px;
+        .mainDiv{
+            padding: 0;
+            width: 335px;
+            .appart{
+                width: 335px;
+            }
+        }
+       
+    }
+}
