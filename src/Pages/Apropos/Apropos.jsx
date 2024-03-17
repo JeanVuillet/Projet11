@@ -12,7 +12,7 @@
 
     return(
         <div className='allPage'>
-    <Banner number={2} visible={'none'}></Banner>
+    <Banner number={2} color={'transparent'}></Banner>
         <div className='aProposDiv__layers'>
       <Layer title={'Fiabilité'} list={data.Fiabilité} className={'fiabilité'}></Layer>
       <Layer title={'Respect'} list={data.Fiabilité} className={'respect'}></Layer>

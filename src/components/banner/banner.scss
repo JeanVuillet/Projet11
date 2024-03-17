@@ -38,7 +38,7 @@
      font-size: 48px;
      font-weight: bold;
      line-height: 68.45px;
-     color:white;
+
  
      width: 1240px;
      height: 223px;
@@ -70,7 +70,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
 
+ }
+ .imgHeader2{
+    width: 335px;
+    height: 111px;
+    object-fit: cover;
+    opacity: 60%;
  }
  .headerMessage{
     max-width: 335px;
