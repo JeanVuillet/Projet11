@@ -16,7 +16,7 @@ Data=AppartData;
     return(
        
        <div className='allPage'>
-     <Banner number={1} color={'black'}/>
+     <Banner number={1} color={'white'}/>
        
         <div className='mainDiv'>
         {newData} 

@@ -1,10 +1,10 @@
 .pageHeader{
-    border:solid;
+  
      position: relative;
      width: auto ;
      height: 223px;
      width:1240px;
-    
+     border-radius: 25px;
  
  
  
@@ -20,6 +20,7 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     border-radius: 25px;
  
  
  }
@@ -28,6 +29,7 @@
     height: 223px;
     object-fit: cover;
     opacity: 60%;
+    border-radius: 25px;
  }
  .headerMessage{
      position:absolute;
@@ -47,6 +49,7 @@
  justify-content: center;
  align-items: center;
  background-color: rgba(0, 0, 0, 0.5); 
+ border-radius: 25px;
  
  }
  }
@@ -57,6 +60,7 @@
         width: auto ;
         height: 111px;
         width:335px;
+        border-radius:  10px;
     
      
  .imgHeader1{
@@ -71,6 +75,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    border-radius:  10px;
 
  }
  .imgHeader2{
@@ -78,12 +83,14 @@
     height: 111px;
     object-fit: cover;
     opacity: 60%;
+    border-radius:  10px;
  }
  .headerMessage{
     max-width: 335px;
     height: 111px;
     font-size: 24px;
     margin: 0;
+    border-radius:  10px;
 
 }
 
