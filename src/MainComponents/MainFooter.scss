@@ -17,3 +17,23 @@
     color:white;
 
 }
+
+@media screen and (max-width: 375px) {
+
+    .svg{
+        width: 122px;
+        height: 39.44px;
+    }
+
+.textContent{
+width: 133.59px;
+height: 46px;
+line-height: 142.6%;
+font-size: 12px;
+margin-top: 10px;
+
+}
+.mainFooter{
+    height: 209px;
+}
+}
