@@ -30,3 +30,19 @@
     text-decoration: underline;
     }
     }
+
+    @media screen and (max-width: 375px) {
+        .errorDiv{
+            gap: 113px;
+        .errorNumber{
+width: 198px;
+height: 99px;
+font-size: 99px;
+        }
+        .errorMessage{
+        width: 260px;
+        height: 52px;
+        font-size: 18px;
+        }
+    }
+    }
