@@ -49,3 +49,20 @@ margin-right: 2rem;
     padding-block: 1em;
   }
 }
+@media screen and (max-width: 375px) {
+    .layerDiv{
+    .Layer {
+        width: 335px;
+        height: 30px;
+    
+      }
+      .title{
+        width: 335px;
+        height: 30px;
+      }
+      .content{
+        width: 335px;
+ 
+      }
+    }
+}
