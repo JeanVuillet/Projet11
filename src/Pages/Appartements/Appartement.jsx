@@ -5,13 +5,18 @@ import { Tag } from "../../components/Tag/tag";
 import "./Appartement.scss";
 import { StarMaker } from "../../components/starMaker";
 import { Caroussel } from "../../components/caroussel/caroussel.jsx";
+import { Error } from "../Error/Error.jsx";
 
 let data = [];
 data = AppartData;
 function Appartement() {
   let { id } = useParams();
   let appartement = data.find((element) => element.id === id);
-  let tags = appartement.tags.map((tag) => (
+ 
+  if(!appartement) {
+    return <Error/>;
+  } else
+  {let tags = appartement.tags.map((tag) => (
     <Tag className="tagContent" content={tag} key={tag}></Tag>
   ));
   return (
@@ -47,5 +52,5 @@ function Appartement() {
       </div>
     </>
   );
-}
+}}
 export default Appartement;
