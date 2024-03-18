@@ -26,3 +26,19 @@
     transform: translateY(-50%);
 }
 }
+@media screen and (max-width: 375px) {
+    .carousselDiv{
+        .appartImg{
+            width: 335px;
+            height: 255px;
+        }
+        .leftArrow{
+            width: 24px;
+            height: 24px;
+        }
+        .rightArrow{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
