@@ -26,3 +26,6 @@ aulieu de Link utiliser NavLink lire doc https://reactrouter.com/en/main/compone
 enleverr les boddy etc
 
 https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-guide-46f51403f430
+
+pages de github ne marche pas
+la page affichee dans l inspecteur est moins large que sa taille definie

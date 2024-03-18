@@ -57,7 +57,6 @@
     .bottom {
       margin-top: 2rem;
       margin-bottom: 3rem;
-      border: solid orange;
 
       display: flex;
       justify-content: space-between;
@@ -72,8 +71,7 @@
     width: 335px;
     margin-left: 20px;
     margin-right: 20px;
-   
-    border: solid green;
+
     .info {
       .appartTitle {
         font-size: 18px;
@@ -82,9 +80,9 @@
         font-size: 14px;
       }
       .proprioDiv {
-        width: 135.5px;
+        width: fit-content;
         height: 33px;
-        gap: 10.5px;
+        top: 109px;
      
       }
       .imgProprio {
@@ -113,6 +111,9 @@
       .proprioName {
         font-size: 12px;
         justify-content: flex-end;
+        width: 62px;
+        height: 33px;
+        flex-wrap: wrap;
       }
       .bottom {
         flex-direction: column;
