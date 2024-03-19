@@ -24,7 +24,7 @@
     
         &.active {
            
-            font-weight: bold;
+            text-decoration: underline;
         
         }
     
@@ -47,5 +47,15 @@
         align-items: center;
         gap: 15px;
        }
+       .navLink {
+     
+    
+        &.active {
+           
+            text-transform: uppercase;
+        
+        }
+    
+    }
     }
  }

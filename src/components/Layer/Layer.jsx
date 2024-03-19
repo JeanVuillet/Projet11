@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import "./Layer.scss";
 
 export function Layer({ title, list, className }) {

@@ -29,3 +29,20 @@ https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-
 
 pages de github ne marche pas
 la page affichee dans l inspecteur est moins large que sa taille definie
+
+
+border radius sur les maisons
+border radius sur le maison container gris
+mettre un gradiant sur le rouge des maisons
+dans le caroussel metter le numero de la photo au centre
+et si il n y en a qu une virer les fleches
+et le numero sur tel petites fleches et pas de num
+
+passer prettyer partout
+
+diminuer taille et poids des photos 
+
+
+desactiver les proptyps dans eslint config et verifier que rien n est souligne
+
+pour pages netlify ou vercel
