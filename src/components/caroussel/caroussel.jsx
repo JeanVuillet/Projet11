@@ -38,7 +38,7 @@ return(
       />
     </svg>
     <img src={appartement.pictures[position]} className="appartImg"></img>
-    <div   style={{display:arrows}}>{position}</div>
+    <div   style={{display:arrows}}>{position+1}/{appartement.pictures.length}</div>
     <svg
     onClick={goForward}
       className="rightArrow"
