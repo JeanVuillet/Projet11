@@ -5,7 +5,7 @@ import { Card } from "../../components/card/card";
 import { Banner } from "../../components/banner/banner";
 
 let Data = [];
-console.log(Data[1]);
+
 Data = AppartData;
 function Home() {
   let newData = Data.map((element) => (

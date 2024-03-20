@@ -12,13 +12,13 @@ export function Caroussel({ appartement }) {
     setPosition(
       position === 0 ? appartement.pictures.length - 1 : position - 1
     );
-    console.log(position);
+
   }
   function goForward() {
     setPosition(
       position === appartement.pictures.length - 1 ? 0 : position + 1
     );
-    console.log(position);
+   
   }
 
   return (

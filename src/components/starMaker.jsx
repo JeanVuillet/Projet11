@@ -38,7 +38,7 @@ export function StarMaker({ number }) {
       starlist.push(<span key={i}>{greyStar}</span>);
     }
   }
-  console.log(starlist);
+
 
   return <div>{starlist}</div>;
 }
