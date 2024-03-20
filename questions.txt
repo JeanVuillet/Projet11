@@ -45,10 +45,13 @@ OK
 
 
 passer prettyer partout
+ok
 
 diminuer taille et poids des photos 
+ok
 
 
 desactiver les proptyps dans eslint config et verifier que rien n est souligne
+ok
 
 pour pages netlify ou vercel
