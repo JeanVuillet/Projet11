@@ -33,7 +33,9 @@ la page affichee dans l inspecteur est moins large que sa taille definie
 
 border radius sur les maisons
 border radius sur le maison container gris
+ok
 mettre un gradiant sur le rouge des maisons
+bof
 
 
 dans le caroussel metter le numero de la photo au centre
