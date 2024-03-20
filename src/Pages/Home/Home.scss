@@ -24,7 +24,7 @@ width:1240px;
 
     background-color: #F6F6F6;
     
-  
+    border-radius: 25px;
    
   
     .appart{
@@ -36,11 +36,13 @@ width:1240px;
         width: 340px;
         height: 340px;
         padding-bottom: 20px;
+        border-radius: 5px;
         
         .appartImg{
             width: 310px;
             height: 250px;
             padding:1rem;
+            border-radius: 20px 20px 0 0;
    
         }
         .appartTitle{
