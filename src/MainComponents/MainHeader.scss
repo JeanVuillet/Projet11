@@ -1,61 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+  height: 68px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
 
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    width:1240px;   
-    height:68px;
-    padding-left:100px;
-    padding-right:100px;
-    margin-top:45px;
-    margin-bottom:45px;}
-
-
-.logo{
-
+.logo {
 }
 
 .navMenu {
-    display: flex;
-    gap: 57px;
+  display: flex;
+  gap: 57px;
 
-    .navLink {
-     
-    
-        &.active {
-           
-            text-decoration: underline;
-        
-        }
-    
+  .navLink {
+    &.active {
+      text-decoration: underline;
     }
-   
+  }
 }
 
-
 @media screen and (max-width: 375px) {
-    .header {
-       width: 335px; /* Réduire la largeur de l'en-tête pour laisser de la place pour les paddings */
-       height: 46.88px;
-       padding-left: 20px; /* Réduire le padding pour s'adapter à l'écran plus petit */
-       padding-right: 20px; /* Réduire le padding pour s'adapter à l'écran plus petit */
-       margin-top: 30px; /* Ajuster le margin en fonction de votre design */
-       margin-bottom: 30px; /* Ajuster le margin en fonction de votre design */
-       .navMenu{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-       }
-       .navLink {
-     
-    
-        &.active {
-           
-            text-transform: uppercase;
-        
-        }
-    
+  .header {
+    width: 335px; /* Réduire la largeur de l'en-tête pour laisser de la place pour les paddings */
+    height: 46.88px;
+    padding-left: 20px; /* Réduire le padding pour s'adapter à l'écran plus petit */
+    padding-right: 20px; /* Réduire le padding pour s'adapter à l'écran plus petit */
+    margin-top: 30px; /* Ajuster le margin en fonction de votre design */
+    margin-bottom: 30px; /* Ajuster le margin en fonction de votre design */
+    .navMenu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
     }
+    .navLink {
+      &.active {
+        text-transform: uppercase;
+      }
     }
- }
+  }
+}

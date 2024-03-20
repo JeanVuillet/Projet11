@@ -12,45 +12,46 @@ data = AppartData;
 function Appartement() {
   let { id } = useParams();
   let appartement = data.find((element) => element.id === id);
- 
-  if(!appartement) {
-    return <Error/>;
-  } else
-  {let tags = appartement.tags.map((tag) => (
-    <Tag className="tagContent" content={tag} key={tag}></Tag>
-  ));
-  return (
-    <>
-      <div className="contain">
-        <Caroussel appartement={appartement} />
-        <div className="info">
-          <div className="appartTitle">{appartement.title}</div>
-          <div className="appartLocation">{appartement.location}</div>
-          <div className="proprioDiv">
-            <div className="proprioName">{appartement.host.name}</div>
-            <img className="imgProprio" src={appartement.host.picture}></img>
-          </div>
-          <div className="starTag">
-            <div className="tagContainer">{tags}</div>
-            <div className="starDiv">
-              <StarMaker number={appartement.rating} />
+
+  if (!appartement) {
+    return <Error />;
+  } else {
+    let tags = appartement.tags.map((tag) => (
+      <Tag className="tagContent" content={tag} key={tag}></Tag>
+    ));
+    return (
+      <>
+        <div className="contain">
+          <Caroussel appartement={appartement} />
+          <div className="info">
+            <div className="appartTitle">{appartement.title}</div>
+            <div className="appartLocation">{appartement.location}</div>
+            <div className="proprioDiv">
+              <div className="proprioName">{appartement.host.name}</div>
+              <img className="imgProprio" src={appartement.host.picture}></img>
+            </div>
+            <div className="starTag">
+              <div className="tagContainer">{tags}</div>
+              <div className="starDiv">
+                <StarMaker number={appartement.rating} />
+              </div>
+            </div>
+            <div className="bottom">
+              <Layer
+                className="Layer"
+                title="Description"
+                list={appartement.description}
+              />
+              <Layer
+                className="Layer"
+                title="Equipements"
+                list={appartement.equipments}
+              />
             </div>
           </div>
-          <div className="bottom">
-            <Layer
-              className="Layer"
-              title="Description"
-              list={appartement.description}
-            />
-            <Layer
-              className="Layer"
-              title="Equipements"
-              list={appartement.equipments}
-            />
-          </div>
         </div>
-      </div>
-    </>
-  );
-}}
+      </>
+    );
+  }
+}
 export default Appartement;

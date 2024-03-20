@@ -1,30 +1,27 @@
 $red: #ff6060;
-.layerDiv{
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   align-items: center;
-.upArrow{
+.layerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .upArrow {
     padding-right: 2rem;
     transform: rotate(180deg) 1s;
-}
-.downArrow{
+  }
+  .downArrow {
     padding-right: 2rem;
-    transform: rotate(-180deg)1s ;
-}
-
+    transform: rotate(-180deg) 1s;
+  }
 
   .Layer {
     width: 582px;
-
   }
- 
 
   .arrow {
-margin-right: 2rem;
+    margin-right: 2rem;
   }
   .title {
-     border-radius: 5px;
+    border-radius: 5px;
     background-color: $red;
     color: white;
     width: 582px;
@@ -42,7 +39,7 @@ margin-right: 2rem;
   .content {
     flex-direction: column;
     width: 582px;
-    padding-inline:0;
+    padding-inline: 0;
     padding-inline-end: 0;
     background-color: #f6f6f6;
     margin-block: 0;
@@ -50,19 +47,17 @@ margin-right: 2rem;
   }
 }
 @media screen and (max-width: 375px) {
-    .layerDiv{
+  .layerDiv {
     .Layer {
-        width: 335px;
-        height: 30px;
-    
-      }
-      .title{
-        width: 335px;
-        height: 30px;
-      }
-      .content{
-        width: 335px;
- 
-      }
+      width: 335px;
+      height: 30px;
     }
+    .title {
+      width: 335px;
+      height: 30px;
+    }
+    .content {
+      width: 335px;
+    }
+  }
 }

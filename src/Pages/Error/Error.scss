@@ -1,12 +1,12 @@
-.errorDiv{
-margin-top: 94px;
-display: flex;
-flex-direction: column;
-gap:139px;
-align-items: center;
-.errorNumber{
-    color:#FF6060;
-   
+.errorDiv {
+  margin-top: 94px;
+  display: flex;
+  flex-direction: column;
+  gap: 139px;
+  align-items: center;
+  .errorNumber {
+    color: #ff6060;
+
     font-size: 288px;
     line-height: 142.6%;
     width: 597px;
@@ -14,19 +14,18 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.errorMessage{
-font-size: 36px;
-color:#FF6060;
-line-height: 142.6%;
-
-}
-.link{
-font-size: 18px;
-color: black;
-line-height: 142.6%;
-margin-bottom: 139px;
-text-decoration: underline;
-}
+  .errorMessage {
+    font-size: 36px;
+    color: #ff6060;
+    line-height: 142.6%;
+  }
+  .link {
+    font-size: 18px;
+    color: black;
+    line-height: 142.6%;
+    margin-bottom: 139px;
+    text-decoration: underline;
+  }
 }

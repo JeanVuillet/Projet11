@@ -1,55 +1,54 @@
-.carousselDiv{
+.carousselDiv {
+  display: flex;
+  position: relative;
 
-    display: flex;
-    position: relative;
-
-.leftArrow{
+  .leftArrow {
     position: absolute;
     z-index: 1;
     width: 5rem;
     height: 5rem;
-    left:2rem;
-   top:50%;
-   transform: translateY(-50%);
-}
-.appartImg {
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .appartImg {
     width: 1240px;
     height: 415px;
   }
-.rightArrow{
+  .rightArrow {
     position: absolute;
     z-index: 1;
     width: 5rem;
     height: 5rem;
-    right:2rem;
-    top:50%;
+    right: 2rem;
+    top: 50%;
     transform: translateY(-50%);
-}
-.position{
+  }
+  .position {
     position: absolute;
     left: 50%;
     bottom: 1rem;
     transform: translateX(-50%);
     color: white;
-}
+  }
 }
 @media screen and (max-width: 375px) {
-    .carousselDiv{
-        width: auto;
-        .appartImg{
-            width: 335px;
-            height: 255px;
-        }
-        .leftArrow{
-            width: 24px;
-            height: 24px;
-        }
-        .rightArrow{
-            width: 24px;
-            height: 24px;
-        }
-        .position{
-        color:transparent;
-        }
+  .carousselDiv {
+    width: auto;
+    .appartImg {
+      width: 335px;
+      height: 255px;
     }
+    .leftArrow {
+      width: 24px;
+      height: 24px;
+    }
+    .rightArrow {
+      width: 24px;
+      height: 24px;
+    }
+    .position {
+      color: transparent;
+    }
+  }
 }

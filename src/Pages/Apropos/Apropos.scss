@@ -1,15 +1,13 @@
-.aProposDiv{
-    border:solid;
-    width: 1240px;
-    padding-left: 100px;
+.aProposDiv {
+  border: solid;
+  width: 1240px;
+  padding-left: 100px;
 
-
-    &__layers{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        gap:30px;
-    }
-
+  &__layers {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

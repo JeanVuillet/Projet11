@@ -11,7 +11,7 @@
   width: 1240px;
   height: 223px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 60%;
   top: 50%;
   left: 50%;
@@ -22,7 +22,7 @@
   width: 1240px;
   height: 223px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 60%;
   border-radius: 25px;
 }
@@ -58,7 +58,7 @@
     width: 335px;
     height: 111px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     opacity: 60%;
     top: 50%;
     left: 50%;
@@ -70,7 +70,7 @@
     width: 335px;
     height: 111px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     opacity: 60%;
     border-radius: 10px;
   }
@@ -81,4 +81,4 @@
     margin: 0;
     border-radius: 10px;
   }
-}/*# sourceMappingURL=banner.css.map */
+} /*# sourceMappingURL=banner.css.map */
