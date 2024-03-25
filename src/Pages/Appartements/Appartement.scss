@@ -91,47 +91,63 @@ border:solid;
     margin-right: 20px;
 
     .info {
-      .appartTitle {
-        font-size: 18px;
-      }
-      .appartLocation {
-        font-size: 14px;
-      }
-      .proprioDiv {
-        width: fit-content;
-        height: 33px;
-        top: 109px;
-      }
+      .center{
+flex-direction: column;
+        .leftDiv{
+          width: 100%;
+          .appartTitle {
+            font-size: 18px;
+            width: auto;
+          }
+          .appartLocation {
+            font-size: 14px;
+          }
+          .tagContainer {
+            justify-content: flex-start;
+          }
+        }
+        .rightDiv{
+          width: 100%;
+          flex-direction: row-reverse;
+          justify-content: flex-start;
+          .proprioDiv {
+            width: fit-content;
+            height: 33px;
+            top: 109px;
+            gap:3px;
+            .proprioName {
+              font-size: 12px;
+              justify-content: flex-end;
+              width: 62px;
+              height: 33px;
+              flex-wrap: wrap;
+            }
       .imgProprio {
         width: 32px;
         height: 32px;
       }
-      .starTag {
-        padding-left: 0;
-        flex-direction: column;
-        gap: 27px;
-
-        .tagContainer {
-          justify-content: flex-start;
-        }
-        .starDiv {
-          display: flex;
-          width: 98px;
-          height: 18px;
-
-          svg {
+          }
+          .starDiv {
+            display: flex;
+            width: 98px;
             height: 18px;
-            width: 18px;
+  
+            svg {
+              height: 18px;
+              width: 18px;
+            }
           }
         }
       }
-      .proprioName {
-        font-size: 12px;
-        justify-content: flex-end;
-        width: 62px;
-        height: 33px;
-        flex-wrap: wrap;
-      }
+  
+  
+
+
+
+  
+       
+      
+
       .bottom {
         flex-direction: column;
         gap: 20px;
