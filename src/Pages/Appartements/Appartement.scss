@@ -109,7 +109,8 @@ flex-direction: column;
         .rightDiv{
           width: 100%;
           flex-direction: row-reverse;
-          justify-content: flex-start;
+          justify-content: space-between;
+          align-items: center;
           .proprioDiv {
             width: fit-content;
             height: 33px;
@@ -131,6 +132,7 @@ flex-direction: column;
             display: flex;
             width: 98px;
             height: 18px;
+            padding-top: 5px;
   
             svg {
               height: 18px;
