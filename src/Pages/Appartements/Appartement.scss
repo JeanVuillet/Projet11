@@ -6,6 +6,16 @@
 
   .info {
     position: relative;
+
+    .center{
+      display: flex;
+      border:solid violet;
+        .leftDiv{
+          display: flex;
+          flex-direction: column;
+     
+          width: 50%;
+border:solid;
     .appartTitle {
       font-size: 36px;
       font-weight: 500;
@@ -13,47 +23,55 @@
       text-wrap: wrap;
       width: 65%;
     }
+    .appartLocation{
+      padding-bottom:20px;
+    }
+    .tagContainer {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+          }
+        .rightDiv{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: flex-end;
+          width: 50%;
+          gap:20px;
     .proprioDiv {
       width: 167px;
       height: 64px;
-      position: absolute;
+  
       top: 24px;
       right: 0px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-
-    .proprioName {
-      display: flex;
-      align-items: center;
-      color: #ff6060;
-      width: 93px;
-      height: 52px;
-    }
-    .imgProprio {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-    }
-    .starTag {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 24px;
-      .tagContainer {
+      padding-right: 5px;
+    padding-top: 5px;
+      .proprioName {
         display: flex;
-        gap: 15px;
-        justify-content: space-between;
         align-items: center;
+        color: #ff6060;
+        width: 93px;
+        height: 52px;
       }
+      .imgProprio {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+      }
+    }
 
       .starDiv {
-        top: 687px;
-        left: 1144px;
+        display: flex;
+        justify-content: flex-end;
         width: 196px;
         height: 36px;
       }
-    }
+          }
+  }
     .bottom {
       margin-top: 2rem;
       margin-bottom: 3rem;

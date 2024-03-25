@@ -24,18 +24,24 @@ function Appartement() {
         <div className="contain">
           <Caroussel appartement={appartement} />
           <div className="info">
-            <div className="appartTitle">{appartement.title}</div>
-            <div className="appartLocation">{appartement.location}</div>
-            <div className="proprioDiv">
-              <div className="proprioName">{appartement.host.name}</div>
-              <img className="imgProprio" src={appartement.host.picture}></img>
-            </div>
-            <div className="starTag">
+
+            <div className="center">
+            <div className="leftDiv">
+              <div className="appartTitle">{appartement.title}</div>
+              <div className="appartLocation">{appartement.location}</div>
               <div className="tagContainer">{tags}</div>
+            </div>
+            <div className="rightDiv">
+              <div className="proprioDiv">
+                <div className="proprioName">{appartement.host.name}</div>
+                <img className="imgProprio" src={appartement.host.picture}></img>
+        
+              </div>
               <div className="starDiv">
-                <StarMaker number={appartement.rating} />
+                  <StarMaker number={appartement.rating} />
               </div>
             </div>
+            </div>   
             <div className="bottom">
               <Layer
                 className="Layer"
