@@ -55,7 +55,6 @@
 .contain .info .bottom {
   margin-top: 2rem;
   margin-bottom: 3rem;
-  border: solid orange;
   display: flex;
   justify-content: space-between;
   width: 100%;
