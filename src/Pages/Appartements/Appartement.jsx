@@ -44,12 +44,12 @@ function Appartement() {
             </div>   
             <div className="bottom">
               <Layer
-                className="Layer"
+                className="small"
                 title="Description"
                 list={appartement.description}
               />
               <Layer
-                className="Layer"
+                className="small"
                 title="Equipements"
                 list={appartement.equipments}
               />

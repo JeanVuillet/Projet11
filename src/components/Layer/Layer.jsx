@@ -18,8 +18,8 @@ export function Layer({ title, list, className }) {
   }
   return (
     <div className={`${className} layerDiv`}>
-      <div onClick={DisplaySeter} className="title">
-        <div className="titleContent">{title}</div>
+      <div onClick={DisplaySeter} className={`${className} title`}>
+        <div className={` titleContent`}>{title}</div>
         <svg
           className="arrow"
           width="24"
@@ -38,7 +38,7 @@ export function Layer({ title, list, className }) {
           />
         </svg>
       </div>
-      <ul className="content" style={{ display: display }}>
+      <ul className={` ${className} content`} style={{ display: display }}>
         {content}
       </ul>
     </div>

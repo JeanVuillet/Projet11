@@ -13,22 +13,22 @@ function Apropos() {
         <Layer
           title={"Fiabilité"}
           list={data.Fiabilité}
-          className={"fiabilité"}
+          className={"large"}
         ></Layer>
         <Layer
           title={"Respect"}
           list={data.Fiabilité}
-          className={"respect"}
+          className={"large"}
         ></Layer>
         <Layer
           title={"Service"}
           list={data.Fiabilité}
-          className={"service"}
+          className={"large"}
         ></Layer>
         <Layer
           title={"Sécurité"}
           list={data.Fiabilité}
-          className={"securite"}
+          className={"large"}
         ></Layer>
       </div>
     </div>
